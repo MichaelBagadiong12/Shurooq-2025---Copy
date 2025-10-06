@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Bungee&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&family=Tangerine:wght@400;700&display=swap');
+
+
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-image{
+    box-shadow: 0 50px 100px rgb(0, 0, 0);
+    width: 880px;
+    height: 480px;
+    display: flex;
+    opacity: 0.8;
+    border-radius: 30px;    
+    position: absolute;
+    z-index: -1;
+}
+
+.mystery-content{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    z-index: 1;
+    gap: 30px;
+    justify-content: center;
+}
+
+.deliver-gif img{
+    height: 360px;
+    width: 330px;
+}
+
+
+.text h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    width: 400px;
+}
+
+.text p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 21px;
+}
+
+.text a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 23px;
+    background-color: #ff9090d9;
+    border-radius: 25px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(252, 104, 104);
+    text-decoration: none;
+    transition: transform 0.5s ease-out;
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+
+.text a:hover{
+    background-color: rgb(251, 89, 89);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 3px 5px #ff9c9cd9; /* looks like a bigger border without shifting layout */
+}
+
+
